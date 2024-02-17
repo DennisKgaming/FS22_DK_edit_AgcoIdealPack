@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="73">
+    <author>P4TRIK</author>
+    <version>1.0.0.0</version>
+    <title>
+		<en>AGCO IDEAL 2017-2023 Pack</en>
+    </title>
+<description>
+<en>
+<![CDATA[AGCO IDEAL:
+- Price: 319500 $
+- Engine power: 451-790 hp
+- Graintank capacity: 12500-17100 L
+- Speed: 40 kph
+- EU Configuration
+- US Configuration
+- Wheels Configuration
+- 3 Pipe Configuration
+- Openable door
+
+PowerFlow 30FT:
+- Price: 51.000 $
+- Working width: 9.2 m
+
+PowerFlow 40FT:
+- Price: 69.500 $
+- Working width: 12.2 m
+
+DynaFlex9255 40FT:
+- Price: 70.500 $
+- Working width: 12.2 m
+]]>
+</en>
+<de>
+<![CDATA[AGCO IDEAL:
+- Preis: 319500 €
+- Leistung: 451-790 PS
+- Korntank-Kapazität: 12500-17100 L
+- Geschwindigkeit: 40 km/h
+- EU-Konfiguration
+- US-Konfiguration
+- Reifen-Konfiguration
+- 3 Rohr-Konfigurationen
+- Zu öffnende Tür
+
+PowerFlow 30FT:
+- Preis: 51.000 €
+- Arbeitsbreite: 9.2 m
+
+PowerFlow 40FT:
+- Preis: 69.500 €
+- Arbeitsbreite: 12.2 m
+
+DynaFlex9255 40FT:
+- Preis: 70.500 €
+- Arbeitsbreite: 12.2 m
+]]>
+</de>
+</description>
+    <iconFilename>icons/icon_ideals.png</iconFilename>
+    <multiplayer supported="true" />
+    <storeItems>
+    <storeItem xmlFilename="xml/ideals.xml" />
+	<storeItem xmlFilename="xml/powerFlow.xml" />
+	<storeItem xmlFilename="xml/powerFlow30FT.xml" />
+	<storeItem xmlFilename="xml/dynaFlex9255.xml" />
+    </storeItems>
+	
+	<l10n>
+		<text name="Default"> <en>Default</en> <de>Standard</de> </text>
+		<text name="Large"> <en>Large</en> <de>Lang</de> </text>
+		<text name="Largest"> <en>Largest</en> <de>Längste</de> </text>
+	</l10n>
+
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKvehicles" title="DennisK" type="VEHICLE" img="Categories/CategoryVehicles.png" />
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>

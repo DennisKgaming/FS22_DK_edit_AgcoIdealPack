@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<crawler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/crawler.xsd">
+    <file name="i3d/idealCrawler.i3d" leftNode="0|1" rightNode="0|0"/>
+
+    <scrollerNodes>
+        <scrollerNode node="0" scrollSpeed="-0.13" scrollLength="1" shaderParameterName="scrollPosition" shaderParameterComponent="1"/>
+    </scrollerNodes>
+
+    <rotatingParts>
+        <rotatingPart node="1" radius="0.610" />
+        <rotatingPart node="2" radius="0.477" />
+        <rotatingPart node="3" radius="0.297" />
+        <rotatingPart node="4" radius="0.297" />
+        <rotatingPart node="5" radius="0.477" />
+    </rotatingParts>
+</crawler>
